@@ -61,8 +61,8 @@ function setup() {
 
   gameFont = loadFont("GameFont.ttf");
 
-  canW = 490; // * 1.5;
-  canH = 871; //* 1.5;
+  canW = 490* 1.5;
+  canH = 871* 1.5;
   canArea = canH * canW;
 
   carWidth = canW / 10;
