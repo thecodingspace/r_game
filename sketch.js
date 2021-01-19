@@ -48,6 +48,7 @@ var gameFont;
 var BGMusic;
 
 function setup() {
+  createCanvas(windowWidth, windowHeight);
   playerImg = loadImage("Images/Car.png");
   truckImg = loadImage("Images/Ambulance2.png");
   roadImg = loadImage("Images/RoadImg.png");
@@ -85,7 +86,6 @@ function setup() {
   //canvasElt.style.width = '50%', canvasElt.style.height = '50%';
   // Sundeep code changes end
 
-  createCanvas(windowWidth, windowHeight);
 
   player = createSprite(canW / 2, canH / 2, carWidth / 2, carHeight / 2);
   truck = new Truck(
