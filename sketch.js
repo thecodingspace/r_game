@@ -85,7 +85,7 @@ function setup() {
   //canvasElt.style.width = '50%', canvasElt.style.height = '50%';
   // Sundeep code changes end
 
-  createCanvas(canW, canH);
+  createCanvas(width,height);
 
   player = createSprite(canW / 2, canH / 2, carWidth / 2, carHeight / 2);
   truck = new Truck(
