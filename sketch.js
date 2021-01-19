@@ -61,8 +61,8 @@ function setup() {
 
   gameFont = loadFont("GameFont.ttf");
 
-  canW = 490 * 1.5;
-  canH = 871 * 1.5;
+  canW = 490; // * 1.5;
+  canH = 871; //* 1.5;
   canArea = canH * canW;
 
   carWidth = canW / 10;
@@ -85,7 +85,7 @@ function setup() {
   //canvasElt.style.width = '50%', canvasElt.style.height = '50%';
   // Sundeep code changes end
 
-  createCanvas(width,height);
+  createCanvas(canW,canH);
 
   player = createSprite(canW / 2, canH / 2, carWidth / 2, carHeight / 2);
   truck = new Truck(
